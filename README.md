@@ -45,25 +45,18 @@ CUDA_VISIBLE_DEVICES=0 python predict.py
 Our dataset is available on the [IEEE Dataport website](https://dx.doi.org/10.21227/d9ft-0n41). To keep the footprint of this repository as small as possible, I have put data related to only one category of the whole dataset (bottle) in the "Output" folder on this repository. The user can run the commands mentioned above to train/test the 3D reconstruction models on this category of data. More data for training/evaluation can be downloaded from the link above. 
 
 # Citation
+We appreciate your interest in our research. If you want to use our work, please consider the proper citation format (the paper and the dataset) written below.
 ```
-
-@inproceedings{zamani2022fast,
-  title={Fast-Image2Point: Towards Real-Time Point Cloud Reconstruction of a Single Image using 3D Supervision},
-  author={Zamani, AmirHossein and Aghdam, Amir G and Ghaffari, Kamran},
-  booktitle={2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA)},
-  pages={495--500},
-  year={2022},
-  organization={IEEE}
-}
-
-@inproceedings{zamani2023leveraging,
-  title={Leveraging Transformer and CNN for Monocular 3D Point Cloud Reconstruction},
-  author={Zamani, AmirHossein and Ghaffari, T Kamran and Aghdam, Amir G},
-  booktitle={2023 IEEE International Conference on Wireless for Space and Extreme Environments (WiSEE)},
-  pages={142--147},
-  year={2023},
-  organization={IEEE}
-}
+@ARTICLE{10614399,
+  author={Zamani, AmirHossein and Ghaffari, Kamran and Aghdam, Amir G.},
+  journal={IEEE Journal of Radio Frequency Identification}, 
+  title={A High-Performance Learning-Based Framework for Monocular 3D Point Cloud Reconstruction}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Monocular 3D reconstruction;transformers;image representation learning;supervised learning;deep neural network},
+  doi={10.1109/JRFID.2024.3435875}}
 
 @data{d9ft-0n41-24,
 doi = {10.21227/d9ft-0n41},
