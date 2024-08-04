@@ -47,16 +47,13 @@ Our dataset is available on the [IEEE Dataport website](https://dx.doi.org/10.21
 # Citation
 We appreciate your interest in our research. If you want to use our work, please consider the proper citation format (the paper and the dataset) written below.
 ```
-@ARTICLE{10614399,
-  author={Zamani, AmirHossein and Ghaffari, Kamran and Aghdam, Amir G.},
-  journal={IEEE Journal of Radio Frequency Identification}, 
-  title={A High-Performance Learning-Based Framework for Monocular 3D Point Cloud Reconstruction}, 
+@article{zamani2024high,
+  title={A High-Performance Learning-Based Framework for Monocular 3D Point Cloud Reconstruction},
+  author={Zamani, AmirHossein and Ghaffari, Kamran and Aghdam, Amir G},
+  journal={IEEE Journal of Radio Frequency Identification},
   year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Monocular 3D reconstruction;transformers;image representation learning;supervised learning;deep neural network},
-  doi={10.1109/JRFID.2024.3435875}}
+  publisher={IEEE}
+}
 
 @data{d9ft-0n41-24,
 doi = {10.21227/d9ft-0n41},
