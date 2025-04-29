@@ -42,7 +42,7 @@ CUDA_VISIBLE_DEVICES=0 python predict.py
 ```
 
 # Dataset
-Our dataset is available on the [IEEE Dataport website](https://dx.doi.org/10.21227/d9ft-0n41). To keep the footprint of this repository as small as possible, I have put data related to only one category of the whole dataset (bottle) in the "Output" folder on this repository. The user can run the commands mentioned above to train/test the 3D reconstruction models on this category of data. More data for training/evaluation can be downloaded from the link above. 
+Our dataset is available on the [IEEE Dataport website](https://ieee-dataport.org/documents/monocular-3d-point-cloud-reconstruction-dataset-mono3dpcl). To keep the footprint of this repository as small as possible, I have put data related to only one category of the whole dataset (bottle) in the "Output" folder on this repository. The user can run the commands mentioned above to train/test the 3D reconstruction models on this category of data. More data for training/evaluation can be downloaded from the link above. 
 
 # Citation
 We appreciate your interest in our research. If you want to use our work, please consider the proper citation format (the paper and the dataset) written below.
